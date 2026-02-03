@@ -1,0 +1,25 @@
+{
+  "cli": {
+    "version": ">= 16.26.0",
+    "appVersionSource": "local"
+  },
+  "build": {
+    "development": {
+      "distribution": "store",
+      "channel": "development",
+      "android": {
+        "autoIncrement": "versionCode",
+        "buildType": "apk"
+      },
+      "ios": {
+        "autoIncrement": "buildNumber"
+      }
+    },
+    "production": {
+      "autoIncrement": true
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

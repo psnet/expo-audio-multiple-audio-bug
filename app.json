@@ -23,7 +23,9 @@
       "permissions": [],
       "blockedPermissions": [
         "android.permission.RECORD_AUDIO"
-      ]
+      ],
+      "package": "com.abcdtest.test.audio.bug",
+      "versionCode": 2
     },
     "web": {
       "output": "single",
